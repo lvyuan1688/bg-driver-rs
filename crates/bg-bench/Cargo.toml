@@ -1,0 +1,13 @@
+[package]
+name = "bg-bench"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Micro-benchmark harness for bg-driver-rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+anyhow = "1"
+async-trait = "0.1"
+bg-driver = { path = "../bg-driver" }

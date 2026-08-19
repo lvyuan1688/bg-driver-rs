@@ -1,5 +1,7 @@
 # bg-driver-rs
 
+![Demo](docs/demo.png)
+
 > Background computer-use driver for macOS, Windows, and Linux — in Rust.
 > Inspired by [trycua/cua](https://github.com/trycua/cua) (21k+ stars), rewritten from scratch in pure Rust (no Swift/Go/Python mix) with Windows as a first-class citizen.
 
