@@ -1,0 +1,9 @@
+[package]
+name = "bg-screenshot-diff"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Perceptual screenshot differ for bg-driver-rs"
+
+[dependencies]
+bg-driver = { path = "../bg-driver" }
