@@ -40,5 +40,6 @@ members = [
     "crates/bg-sandbox",
     "crates/bg-bench",
     "crates/bg-screenshot-diff",
+    "crates/bg-input-chain",
     "mcp-server",
 ]
